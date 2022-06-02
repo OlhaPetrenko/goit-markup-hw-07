@@ -11,6 +11,7 @@
   &:not(:last-child) {
     margin-right: 30px;
   }
+  background-color: $primery-background-color;
 }
 .team-list {
   @include centeredFlex;

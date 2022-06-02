@@ -1,17 +1,6 @@
 @import './utils/vars';
 
-body {
-  background-color: $primery-background-color;
-  color: $primary-text-color;
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
-
-img {
-  display: block;
-}
-
+@import './base/set';
 @import './utils/placeholder';
 @import './utils/mixin';
 @import './components/header';

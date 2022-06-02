@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--primery-background-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -17,7 +17,7 @@ img {
   list-style: none;
 }
 
-.logo, .header__logo, .footer__logo, .site-nav__link, .contact-nav__link {
+.logo, .header__logo, .footer__logo, .site-nav__link, .contact-nav__link, .contacts__link {
   text-decoration: none;
 }
 
@@ -324,6 +324,7 @@ img {
   width: calc((100%-90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .team-list__item:not(:last-child) {
@@ -365,7 +366,7 @@ img {
   padding-bottom: 0;
 }
 
-.social-list__item :not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -380,7 +381,6 @@ img {
 }
 
 .social-list__link--bgc {
-  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -480,12 +480,12 @@ img {
   font-style: normal;
 }
 
-.contacts__link--adress {
-  color: #ffffff;
-}
-
 .contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
+}
+
+.contacts__link--adress {
+  color: #ffffff;
 }
 
 .subscribe {
