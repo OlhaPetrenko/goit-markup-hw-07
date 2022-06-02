@@ -1,4 +1,5 @@
 @import './utils/vars';
+
 body {
   background-color: $primery-background-color;
   color: $primary-text-color;
@@ -12,19 +13,15 @@ img {
 }
 
 @import './utils/placeholder';
-
 @import './utils/mixin';
 @import './components/header';
 @import './components/logo';
 @import './components/siteNav';
 @import './components/contactNav';
-@import './components/hero';
-@import './components/feature';
-@import './components/activvity';
-@import './components/_team';
-@import './components/client';
+@import './components/portfolio';
+@import './components/portfolioBtn';
+@import './components/portfolioCards';
 @import './components/footer';
+@import './components/socialLink';
 @import './components/footerNav';
 @import './components/footerSubscribe';
-@import './components/modal';
-@import './components/form';

@@ -55,7 +55,7 @@
   outline: transparent;
   resize: none;
 
-  transition: border 250ms var(--timing-function);
+  transition: border 250ms $timing-function;
   &::placeholder {
     font-weight: 400;
     font-size: 12px;
