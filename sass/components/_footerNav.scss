@@ -1,0 +1,22 @@
+.contacts__list {
+  @extend %list;
+}
+
+.contacts__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+.contacts__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+  &--adress {
+    color: $primery-background-color;
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
